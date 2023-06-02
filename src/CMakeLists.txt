@@ -199,6 +199,8 @@ if(BUILD_STATIC)
 	endif()
 endif()
 
+target_link_libraries(SDL_gpu PRIVATE opengl32)
+
 # These are used to create visual studio folders.
 source_group(Common FILES ${SDL_gpu_SRCS} ${SDL_gpu_HDRS})
 
