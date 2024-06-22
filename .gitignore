@@ -8,4 +8,5 @@ build/
 *.a
 *.so
 *.o
-
+_ReSharper.Caches
+.vs
